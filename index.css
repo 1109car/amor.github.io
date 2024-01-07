@@ -36,3 +36,8 @@
     width: 20%;
     height: 10%;
 }
+.ethel{
+    position: absolute;
+    
+    opacity: .5;
+}
