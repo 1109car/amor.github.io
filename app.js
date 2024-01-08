@@ -11,7 +11,7 @@ setTimeout(()=>{
 },700)
 setTimeout(()=>{
         azul.textContent="'Ya Perdonemeeeeeee'"
-},15000)
+},30000)
 
 
 
