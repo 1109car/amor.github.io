@@ -1,14 +1,21 @@
 const contenedor  = document.querySelector(".container")
 const si = document.querySelector(".si")
-const cont = 0
+const azul = document.querySelector(".azul")
 
 si.addEventListener("click",()=>{
  
         si.style.left =  Math.floor(Math.random()*400)+"px";
-    //     si.classList.add('azul')
+//       const azul = document.querySelector(".azul")
+setTimeout(()=>{
+        azul.style.display="flex";
+},700)
+setTimeout(()=>{
+        azul.textContent="'Ya Perdonemeeeeeee'"
+},4000)
+
+
+
+//       azul.textContent="jjjjj"
     //  const azul = document.querySelector(".azul")
         si.style.bottom=Math.floor(Math.random()*400)+"px";
-
-    
-
 })
